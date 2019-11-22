@@ -8,3 +8,5 @@ Instructions
 =============
 Run the App.pyw to begin.
 You can add or remove games from the list.
+To add a game, click the add button on the main menu and type the name of the game you want to add.
+To remove a game, click the remove button and type the number of the game you want to remove.
