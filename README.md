@@ -6,3 +6,5 @@ My friend and I can never decide what game we want to play together, so I made a
 
 Instructions
 =============
+Run the App.pyw to begin.
+You can add or remove games from the list.
