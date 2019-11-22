@@ -32,8 +32,11 @@ class myGui:
 
     def option_pick(self, pf_label):
         self.raise_frame(self.pick_frame)
-        rand_num = random.randint(1, len(self.option_list))
-        pf_label.config(text="Selected Option is: " + self.option_list[rand_num-1])
+        if len(self.option_list) > 0:
+            rand_num = random.randint(1, len(self.option_list))
+            pf_label.config(text="Selected Option is: " + self.option_list[rand_num-1])
+        else:
+            pf_label.config(text="No options to choose from...")
 
     def option_add(self, af_entry, af_label):
         new_option = af_entry.get()
